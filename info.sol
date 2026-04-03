@@ -42,4 +42,8 @@ contract RandomNumber is VRFConsumerBaseV2 {
     function fulfillRandomWords(uint256, uint256[] memory randomWords) internal override {
         randomResult = randomWords[0];
     }
+
+     function fulfillRandomWords(uint256, uint256[] memory randomWords) internal override {
+        randomResult = randomWords[0];
+    }
 }
