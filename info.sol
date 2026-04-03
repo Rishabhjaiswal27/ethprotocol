@@ -25,7 +25,7 @@ contract RandomNumber is VRFConsumerBaseV2 {
         VRFConsumerBaseV2(vrfCoordinator)
     {
         COORDINATOR = VRFCoordinatorV2Interface(vrfCoordinator);
-        subscriptionId = _subId;
+        subscriptionId1 = _subId1;
         keyHash = _keyHash;
     }
 
