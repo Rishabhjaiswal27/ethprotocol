@@ -19,7 +19,7 @@ contract RandomNumber is VRFConsumerBaseV2 {
     uint64 subscriptionId;
     bytes32 keyHash;
 
-    uint256 public randomResult;
+    uint256 public randomResult1;
 
     constructor(address vrfCoordinator, uint64 _subId, bytes32 _keyHash)
         VRFConsumerBaseV2(vrfCoordinator)
